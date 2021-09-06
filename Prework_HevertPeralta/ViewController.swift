@@ -3,7 +3,6 @@
 //  Prework_HevertPeralta
 //
 //  Created by Hevert Peralta on 9/3/21.
-// Testing Git
 //
 
 import UIKit
