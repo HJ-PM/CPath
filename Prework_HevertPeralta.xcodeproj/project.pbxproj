@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B11B85FE26E30E580078B0C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11B85FD26E30E580078B0C6 /* AppDelegate.swift */; };
+		B11B860026E30E580078B0C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11B85FF26E30E580078B0C6 /* SceneDelegate.swift */; };
+		B11B860226E30E580078B0C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11B860126E30E580078B0C6 /* ViewController.swift */; };
+		B11B860526E30E580078B0C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11B860326E30E580078B0C6 /* Main.storyboard */; };
+		B11B860726E30E5E0078B0C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11B860626E30E5E0078B0C6 /* Assets.xcassets */; };
+		B11B860A26E30E5E0078B0C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11B860826E30E5E0078B0C6 /* LaunchScreen.storyboard */; };
+		B11B861526E30E5E0078B0C6 /* Prework_HevertPeraltaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11B861426E30E5E0078B0C6 /* Prework_HevertPeraltaTests.swift */; };
+		B11B862026E30E5E0078B0C6 /* Prework_HevertPeraltaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11B861F26E30E5E0078B0C6 /* Prework_HevertPeraltaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B11B861126E30E5E0078B0C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B11B85F226E30E580078B0C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B11B85F926E30E580078B0C6;
+			remoteInfo = Prework_HevertPeralta;
+		};
+		B11B861C26E30E5E0078B0C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B11B85F226E30E580078B0C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B11B85F926E30E580078B0C6;
+			remoteInfo = Prework_HevertPeralta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B11B85FA26E30E580078B0C6 /* Prework_HevertPeralta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prework_HevertPeralta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11B85FD26E30E580078B0C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B11B85FF26E30E580078B0C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B11B860126E30E580078B0C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B11B860426E30E580078B0C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B11B860626E30E5E0078B0C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B11B860926E30E5E0078B0C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B11B860B26E30E5E0078B0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11B861026E30E5E0078B0C6 /* Prework_HevertPeraltaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prework_HevertPeraltaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11B861426E30E5E0078B0C6 /* Prework_HevertPeraltaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prework_HevertPeraltaTests.swift; sourceTree = "<group>"; };
+		B11B861626E30E5E0078B0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11B861B26E30E5E0078B0C6 /* Prework_HevertPeraltaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prework_HevertPeraltaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11B861F26E30E5E0078B0C6 /* Prework_HevertPeraltaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prework_HevertPeraltaUITests.swift; sourceTree = "<group>"; };
+		B11B862126E30E5E0078B0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B11B85F726E30E580078B0C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11B860D26E30E5E0078B0C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11B861826E30E5E0078B0C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B11B85F126E30E580078B0C6 = {
+			isa = PBXGroup;
+			children = (
+				B11B85FC26E30E580078B0C6 /* Prework_HevertPeralta */,
+				B11B861326E30E5E0078B0C6 /* Prework_HevertPeraltaTests */,
+				B11B861E26E30E5E0078B0C6 /* Prework_HevertPeraltaUITests */,
+				B11B85FB26E30E580078B0C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B11B85FB26E30E580078B0C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B11B85FA26E30E580078B0C6 /* Prework_HevertPeralta.app */,
+				B11B861026E30E5E0078B0C6 /* Prework_HevertPeraltaTests.xctest */,
+				B11B861B26E30E5E0078B0C6 /* Prework_HevertPeraltaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B11B85FC26E30E580078B0C6 /* Prework_HevertPeralta */ = {
+			isa = PBXGroup;
+			children = (
+				B11B85FD26E30E580078B0C6 /* AppDelegate.swift */,
+				B11B85FF26E30E580078B0C6 /* SceneDelegate.swift */,
+				B11B860126E30E580078B0C6 /* ViewController.swift */,
+				B11B860326E30E580078B0C6 /* Main.storyboard */,
+				B11B860626E30E5E0078B0C6 /* Assets.xcassets */,
+				B11B860826E30E5E0078B0C6 /* LaunchScreen.storyboard */,
+				B11B860B26E30E5E0078B0C6 /* Info.plist */,
+			);
+			path = Prework_HevertPeralta;
+			sourceTree = "<group>";
+		};
+		B11B861326E30E5E0078B0C6 /* Prework_HevertPeraltaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B11B861426E30E5E0078B0C6 /* Prework_HevertPeraltaTests.swift */,
+				B11B861626E30E5E0078B0C6 /* Info.plist */,
+			);
+			path = Prework_HevertPeraltaTests;
+			sourceTree = "<group>";
+		};
+		B11B861E26E30E5E0078B0C6 /* Prework_HevertPeraltaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B11B861F26E30E5E0078B0C6 /* Prework_HevertPeraltaUITests.swift */,
+				B11B862126E30E5E0078B0C6 /* Info.plist */,
+			);
+			path = Prework_HevertPeraltaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B11B85F926E30E580078B0C6 /* Prework_HevertPeralta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11B862426E30E5E0078B0C6 /* Build configuration list for PBXNativeTarget "Prework_HevertPeralta" */;
+			buildPhases = (
+				B11B85F626E30E580078B0C6 /* Sources */,
+				B11B85F726E30E580078B0C6 /* Frameworks */,
+				B11B85F826E30E580078B0C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Prework_HevertPeralta;
+			productName = Prework_HevertPeralta;
+			productReference = B11B85FA26E30E580078B0C6 /* Prework_HevertPeralta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B11B860F26E30E5E0078B0C6 /* Prework_HevertPeraltaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11B862726E30E5E0078B0C6 /* Build configuration list for PBXNativeTarget "Prework_HevertPeraltaTests" */;
+			buildPhases = (
+				B11B860C26E30E5E0078B0C6 /* Sources */,
+				B11B860D26E30E5E0078B0C6 /* Frameworks */,
+				B11B860E26E30E5E0078B0C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B11B861226E30E5E0078B0C6 /* PBXTargetDependency */,
+			);
+			name = Prework_HevertPeraltaTests;
+			productName = Prework_HevertPeraltaTests;
+			productReference = B11B861026E30E5E0078B0C6 /* Prework_HevertPeraltaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B11B861A26E30E5E0078B0C6 /* Prework_HevertPeraltaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11B862A26E30E5E0078B0C6 /* Build configuration list for PBXNativeTarget "Prework_HevertPeraltaUITests" */;
+			buildPhases = (
+				B11B861726E30E5E0078B0C6 /* Sources */,
+				B11B861826E30E5E0078B0C6 /* Frameworks */,
+				B11B861926E30E5E0078B0C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B11B861D26E30E5E0078B0C6 /* PBXTargetDependency */,
+			);
+			name = Prework_HevertPeraltaUITests;
+			productName = Prework_HevertPeraltaUITests;
+			productReference = B11B861B26E30E5E0078B0C6 /* Prework_HevertPeraltaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B11B85F226E30E580078B0C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B11B85F926E30E580078B0C6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B11B860F26E30E5E0078B0C6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B11B85F926E30E580078B0C6;
+					};
+					B11B861A26E30E5E0078B0C6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B11B85F926E30E580078B0C6;
+					};
+				};
+			};
+			buildConfigurationList = B11B85F526E30E580078B0C6 /* Build configuration list for PBXProject "Prework_HevertPeralta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B11B85F126E30E580078B0C6;
+			productRefGroup = B11B85FB26E30E580078B0C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B11B85F926E30E580078B0C6 /* Prework_HevertPeralta */,
+				B11B860F26E30E5E0078B0C6 /* Prework_HevertPeraltaTests */,
+				B11B861A26E30E5E0078B0C6 /* Prework_HevertPeraltaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B11B85F826E30E580078B0C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11B860A26E30E5E0078B0C6 /* LaunchScreen.storyboard in Resources */,
+				B11B860726E30E5E0078B0C6 /* Assets.xcassets in Resources */,
+				B11B860526E30E580078B0C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11B860E26E30E5E0078B0C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11B861926E30E5E0078B0C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B11B85F626E30E580078B0C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11B860226E30E580078B0C6 /* ViewController.swift in Sources */,
+				B11B85FE26E30E580078B0C6 /* AppDelegate.swift in Sources */,
+				B11B860026E30E580078B0C6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11B860C26E30E5E0078B0C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11B861526E30E5E0078B0C6 /* Prework_HevertPeraltaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B11B861726E30E5E0078B0C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11B862026E30E5E0078B0C6 /* Prework_HevertPeraltaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B11B861226E30E5E0078B0C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B11B85F926E30E580078B0C6 /* Prework_HevertPeralta */;
+			targetProxy = B11B861126E30E5E0078B0C6 /* PBXContainerItemProxy */;
+		};
+		B11B861D26E30E5E0078B0C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B11B85F926E30E580078B0C6 /* Prework_HevertPeralta */;
+			targetProxy = B11B861C26E30E5E0078B0C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B11B860326E30E580078B0C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B11B860426E30E580078B0C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B11B860826E30E5E0078B0C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B11B860926E30E5E0078B0C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B11B862226E30E5E0078B0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B11B862326E30E5E0078B0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B11B862526E30E5E0078B0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Prework_HevertPeralta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.fiu.Prework-HevertPeralta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B11B862626E30E5E0078B0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Prework_HevertPeralta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.fiu.Prework-HevertPeralta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B11B862826E30E5E0078B0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Prework_HevertPeraltaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.fiu.Prework-HevertPeraltaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prework_HevertPeralta.app/Prework_HevertPeralta";
+			};
+			name = Debug;
+		};
+		B11B862926E30E5E0078B0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Prework_HevertPeraltaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.fiu.Prework-HevertPeraltaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prework_HevertPeralta.app/Prework_HevertPeralta";
+			};
+			name = Release;
+		};
+		B11B862B26E30E5E0078B0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Prework_HevertPeraltaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.fiu.Prework-HevertPeraltaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Prework_HevertPeralta;
+			};
+			name = Debug;
+		};
+		B11B862C26E30E5E0078B0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Prework_HevertPeraltaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.fiu.Prework-HevertPeraltaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Prework_HevertPeralta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B11B85F526E30E580078B0C6 /* Build configuration list for PBXProject "Prework_HevertPeralta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11B862226E30E5E0078B0C6 /* Debug */,
+				B11B862326E30E5E0078B0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11B862426E30E5E0078B0C6 /* Build configuration list for PBXNativeTarget "Prework_HevertPeralta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11B862526E30E5E0078B0C6 /* Debug */,
+				B11B862626E30E5E0078B0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11B862726E30E5E0078B0C6 /* Build configuration list for PBXNativeTarget "Prework_HevertPeraltaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11B862826E30E5E0078B0C6 /* Debug */,
+				B11B862926E30E5E0078B0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11B862A26E30E5E0078B0C6 /* Build configuration list for PBXNativeTarget "Prework_HevertPeraltaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11B862B26E30E5E0078B0C6 /* Debug */,
+				B11B862C26E30E5E0078B0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B11B85F226E30E580078B0C6 /* Project object */;
+}
