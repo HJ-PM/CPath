@@ -15,6 +15,7 @@
 		B11B860A26E30E5E0078B0C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11B860826E30E5E0078B0C6 /* LaunchScreen.storyboard */; };
 		B11B861526E30E5E0078B0C6 /* Prework_HevertPeraltaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11B861426E30E5E0078B0C6 /* Prework_HevertPeraltaTests.swift */; };
 		B11B862026E30E5E0078B0C6 /* Prework_HevertPeraltaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11B861F26E30E5E0078B0C6 /* Prework_HevertPeraltaUITests.swift */; };
+		B158D04A26E828A800F90237 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B158D04926E828A800F90237 /* SettingsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B11B861B26E30E5E0078B0C6 /* Prework_HevertPeraltaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prework_HevertPeraltaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11B861F26E30E5E0078B0C6 /* Prework_HevertPeraltaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prework_HevertPeraltaUITests.swift; sourceTree = "<group>"; };
 		B11B862126E30E5E0078B0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B158D04926E828A800F90237 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				B11B860626E30E5E0078B0C6 /* Assets.xcassets */,
 				B11B860826E30E5E0078B0C6 /* LaunchScreen.storyboard */,
 				B11B860B26E30E5E0078B0C6 /* Info.plist */,
+				B158D04926E828A800F90237 /* SettingsController.swift */,
 			);
 			path = Prework_HevertPeralta;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B158D04A26E828A800F90237 /* SettingsController.swift in Sources */,
 				B11B860226E30E580078B0C6 /* ViewController.swift in Sources */,
 				B11B85FE26E30E580078B0C6 /* AppDelegate.swift in Sources */,
 				B11B860026E30E580078B0C6 /* SceneDelegate.swift in Sources */,
